@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-server-http-mock",
+  "version": "1.0.0",
+  "description": "Server-side HTTP requests mocking module for Nuxt",
+  "main": "lib/module.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quef/nuxt-server-http-mock.git"
+  },
+  "keywords": [
+    "Nuxt",
+    "mock",
+    "server",
+    "server-side",
+    "test"
+  ],
+  "author": "Valentin Quefelec",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.4.0",
+    "nock": "^12.0.3",
+    "path": "^0.12.7"
+  },
+  "bugs": {
+    "url": "https://github.com/quef/nuxt-server-http-mock/issues"
+  },
+  "homepage": "https://github.com/quef/nuxt-server-http-mock#readme"
+}
