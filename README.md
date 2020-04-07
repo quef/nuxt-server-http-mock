@@ -25,19 +25,4 @@ modules: [
 
 
 ## Quick Start
-Create your first mock in `test/mocks/example.js`. The default directory is `test/mocks`
-but it can be overridden. See [Configuration Reference](#configuration-reference) for more details.
 
-```javascript
-import nock from 'nock'
-
-export default function() {
-  nock('http://api.example.com')
-      .get('/user')
-      .reply(200, [{
-        id: 123,
-        username: 'John Doe',
-        email: 'email@john.doe'
-      }])
-}
-```
